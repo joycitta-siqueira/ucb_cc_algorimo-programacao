@@ -1,0 +1,48 @@
+Construa um algoritmo que leia um número inteiro de horas e mostre ao usuário o correspondente em minutos destas horas.
+
+Solicitar quantidade de horas;
+Calcular os minutos;
+Apresentar o resultado;
+
+algoritmo calculoMinutos;
+Inicio
+	inteiro horas;
+	inteiro minutos;
+	escreva("Usuario, por favor, digite a quantidade horas");
+	leia(horas);
+	minutos = horas * 60;
+	escreva("A quantidade de minutos é", minutos);
+Fim
+
+Construa um algoritmo que calcule a média aritmética de 3 números quaisquer fornecidos pelo usuário
+
+Solicitar as 3 notas
+REalizar o calculo da media
+Apresentar o resultado
+
+algoritmo mediaA;
+Inicio
+	real nota1, nota2, nota3, media;
+	escreva("Digite a nota 1);
+	leia(nota1);
+	escreva("Digite a nota 2);
+	leia(nota2);
+	escreva("Digite a nota 3);
+	leia(nota3);
+	media = (nota1 + nota2 + nota3)/3;
+	escreva("Media: ", media);
+Fim
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
